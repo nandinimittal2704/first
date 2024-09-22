@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinDog</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <link rel="stylesheet" href="project.css">
+ <style>
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Title -->
+  <section id="title">
+      <div class="gradient-background">
+    <div class="container">
+        <header class="d-flex justify-content-center py-3 ">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a href="#" class="nav-link active text-dark" aria-current="page" style="background-color: rgb(172, 49, 49); " >Home</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">About</a></li>
+            </ul>
+          </header>
+          
+
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://wallpapers.com/images/hd/dog-iphone-wjr7h4eeuur8s1x7.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="10" >
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Meet new and interesting dogs nearby.</h1>
+          
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-apple mb-1" viewBox="0 0 16 16">
+<path
+                  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+<path
+                  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+</svg> Download</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+<path
+                  d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+</svg>Download</button>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+  </section>
+  <!-- Features -->
+  <section id="features">
+    <div class="container">
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Columns with icons</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
+                viewBox="0 0 16 16">
+  <path
+                  d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+  <path
+                  d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Easy to use.</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                    <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+                    <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                    </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Elite Clientele.</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+            
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-arrow-through-heart"
+                viewBox="0 0 16 16">
+  <path fill-rule="evenodd"
+                  d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z" />
+  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Guaranteed to work.</h3>
+            <p>We'll add onto it with another sentence and probably just keep going until we run out of wordFind the love of your dog's life or your money back..</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <div class="container py-5" align="center">
+        <h2 class="text-body-emphasis">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."
+            </h2>
+            <img class="dogimg mt-5" src="https://i.pinimg.com/236x/0b/19/48/0b1948834284e8e3eb6b8d3112b532d0.jpg" alt="DOG" >
+        <p class="col-lg-8 mx-auto lead mt-2">
+            Pebbles, New York
+        </p>
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <img src="data:image/png;base64,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" alt="" height="30">
+           
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+                <img src="data:image/png;base64,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" alt="" height="30">
+           
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <img src="https://traderexporter.com/images/home/83357bizbook-white.webp" alt="" height="30">
+           
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsGbTiGRgWO9YPOxksj1ZRWIZdtgAFDrjRfg&s" alt="" height="60" width="100">
+           
+            </div>
+
+            </div>
+        </div>
+      </div>
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="container">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">A Plan for Every Dog's Needs</h1>
+            <p class="fs-5 text-body-secondary">Simple and affordable price plans for you and your dog.</p>
+          </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Chihuahua</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 Matches Per Day</li>
+                <li>10 Messages Per Day</li>
+                <li>Unlimited App Usage</li>
+               
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Labrador</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited Matches
+                   
+                   </li>
+                <li> Unlimited Messages</li>
+                
+                <li> Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-dark">
+            <div class="card-header py-3 text-bg-dark border-dark">
+              <h4 class="my-0 fw-dark">Mastiff</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-dark">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Pirority Listing
+                    
+                    </li>
+                <li>Unlimited Matches & Messages</li>
+                <li>Unlimited App Usage</li>
+              
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section id="footer" class="gradient-background">
+<div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 ">
+        <div class="col mb-3">
+          
+          <p class="text-body-secondary">© tinDog</p>
+        </div>
+    
+        <div class="col mb-3">
+    
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+      </footer>
+</div>
+  </section>
+</body>
+
+</html>
